@@ -138,6 +138,7 @@ atm,monthly,20C,TREFHTMN,s3://ncar-cesm-lens/atm/monthly/cesmLE-20C-TREFHTMN.zar
 atm,monthly,20C,TREFHTMX,s3://ncar-cesm-lens/atm/monthly/cesmLE-20C-TREFHTMX.zarr,maximum reference height temperature over output period,2.0,1920-01-16 12:00:00,2005-12-16 12:00:00
 atm,monthly,20C,TS,s3://ncar-cesm-lens/atm/monthly/cesmLE-20C-TS.zarr,surface temperature (radiative),2.0,1920-01-16 12:00:00,2005-12-16 12:00:00
 atm,monthly,20C,U,s3://ncar-cesm-lens/atm/monthly/cesmLE-20C-U.zarr,zonal wind,3.0,1920-01-16 12:00:00,2005-12-16 12:00:00
+atm,monthly,20C,V,s3://ncar-cesm-lens/atm/monthly/cesmLE-20C-V.zarr,meridional wind,3.0,1920-01-16 12:00:00,2005-12-16 12:00:00
 atm,monthly,20C,Z3,s3://ncar-cesm-lens/atm/monthly/cesmLE-20C-Z3.zarr,geopotential height (above sea level),3.0,1920-01-16 12:00:00,2005-12-16 12:00:00
 atm,monthly,CTRL,FLNS,s3://ncar-cesm-lens/atm/monthly/cesmLE-CTRL-FLNS.zarr,net longwave flux at surface,2.0,0400-01-16 12:00:00,2200-12-16 12:00:00
 atm,monthly,CTRL,FLNSC,s3://ncar-cesm-lens/atm/monthly/cesmLE-CTRL-FLNSC.zarr,clearsky net longwave flux at surface,2.0,0400-01-16 12:00:00,2200-12-16 12:00:00
@@ -162,6 +163,7 @@ atm,monthly,CTRL,TREFHTMN,s3://ncar-cesm-lens/atm/monthly/cesmLE-CTRL-TREFHTMN.z
 atm,monthly,CTRL,TREFHTMX,s3://ncar-cesm-lens/atm/monthly/cesmLE-CTRL-TREFHTMX.zarr,maximum reference height temperature over output period,2.0,0400-01-16 12:00:00,2200-12-16 12:00:00
 atm,monthly,CTRL,TS,s3://ncar-cesm-lens/atm/monthly/cesmLE-CTRL-TS.zarr,surface temperature (radiative),2.0,0400-01-16 12:00:00,2200-12-16 12:00:00
 atm,monthly,CTRL,U,s3://ncar-cesm-lens/atm/monthly/cesmLE-CTRL-U.zarr,zonal wind,3.0,0400-01-16 12:00:00,2200-12-16 12:00:00
+atm,monthly,CTRL,V,s3://ncar-cesm-lens/atm/monthly/cesmLE-CTRL-V.zarr,meridional wind,3.0,0400-01-16 12:00:00,2200-12-16 12:00:00
 atm,monthly,CTRL,Z3,s3://ncar-cesm-lens/atm/monthly/cesmLE-CTRL-Z3.zarr,geopotential height (above sea level),3.0,0400-01-16 12:00:00,2200-12-16 12:00:00
 atm,monthly,HIST,FLNS,s3://ncar-cesm-lens/atm/monthly/cesmLE-HIST-FLNS.zarr,net longwave flux at surface,1.0,1850-01-16 12:00:00,1919-12-16 12:00:00
 atm,monthly,HIST,FLNSC,s3://ncar-cesm-lens/atm/monthly/cesmLE-HIST-FLNSC.zarr,clearsky net longwave flux at surface,1.0,1850-01-16 12:00:00,1919-12-16 12:00:00
@@ -185,6 +187,7 @@ atm,monthly,HIST,TREFHTMN,s3://ncar-cesm-lens/atm/monthly/cesmLE-HIST-TREFHTMN.z
 atm,monthly,HIST,TREFHTMX,s3://ncar-cesm-lens/atm/monthly/cesmLE-HIST-TREFHTMX.zarr,maximum reference height temperature over output period,1.0,1850-01-16 12:00:00,1919-12-16 12:00:00
 atm,monthly,HIST,TS,s3://ncar-cesm-lens/atm/monthly/cesmLE-HIST-TS.zarr,surface temperature (radiative),1.0,1850-01-16 12:00:00,1919-12-16 12:00:00
 atm,monthly,HIST,U,s3://ncar-cesm-lens/atm/monthly/cesmLE-HIST-U.zarr,zonal wind,2.0,1850-01-16 12:00:00,1919-12-16 12:00:00
+atm,monthly,HIST,V,s3://ncar-cesm-lens/atm/monthly/cesmLE-HIST-V.zarr,meridional wind,2.0,1850-01-16 12:00:00,1919-12-16 12:00:00
 atm,monthly,HIST,Z3,s3://ncar-cesm-lens/atm/monthly/cesmLE-HIST-Z3.zarr,geopotential height (above sea level),2.0,1850-01-16 12:00:00,1919-12-16 12:00:00
 atm,monthly,RCP85,FLNS,s3://ncar-cesm-lens/atm/monthly/cesmLE-RCP85-FLNS.zarr,net longwave flux at surface,2.0,2006-01-16 12:00:00,2100-12-16 12:00:00
 atm,monthly,RCP85,FLNSC,s3://ncar-cesm-lens/atm/monthly/cesmLE-RCP85-FLNSC.zarr,clearsky net longwave flux at surface,2.0,2006-01-16 12:00:00,2100-12-16 12:00:00
@@ -209,7 +212,10 @@ atm,monthly,RCP85,TREFHTMN,s3://ncar-cesm-lens/atm/monthly/cesmLE-RCP85-TREFHTMN
 atm,monthly,RCP85,TREFHTMX,s3://ncar-cesm-lens/atm/monthly/cesmLE-RCP85-TREFHTMX.zarr,maximum reference height temperature over output period,2.0,2006-01-16 12:00:00,2100-12-16 12:00:00
 atm,monthly,RCP85,TS,s3://ncar-cesm-lens/atm/monthly/cesmLE-RCP85-TS.zarr,surface temperature (radiative),2.0,2006-01-16 12:00:00,2100-12-16 12:00:00
 atm,monthly,RCP85,U,s3://ncar-cesm-lens/atm/monthly/cesmLE-RCP85-U.zarr,zonal wind,3.0,2006-01-16 12:00:00,2100-12-16 12:00:00
+atm,monthly,RCP85,V,s3://ncar-cesm-lens/atm/monthly/cesmLE-RCP85-V.zarr,meridional wind,3.0,2006-01-16 12:00:00,2100-12-16 12:00:00
 atm,monthly,RCP85,Z3,s3://ncar-cesm-lens/atm/monthly/cesmLE-RCP85-Z3.zarr,geopotential height (above sea level),3.0,2006-01-16 12:00:00,2100-12-16 12:00:00
+atm,monthly,CTRL_AMIP,Z3,s3://ncar-cesm-lens/atm/monthly/cesmLE-CTRL_AMIP-FLNS.zarr,geopotential height (above sea level),3.0,0001-01-16 12:00:00,2600-12-16 12:00:00
+atm,monthly,CTRL_SLAB,Z3,s3://ncar-cesm-lens/atm/monthly/cesmLE-CTRL_SLAB_OCN-Z3.zarr,geopotential height (above sea level),3.0,0001-01-16 12:00:00,1000-12-16 12:00:00
 atm,static,CTRL,,s3://ncar-cesm-lens/atm/static/grid.zarr,,,,
 atm,static,HIST,,s3://ncar-cesm-lens/atm/static/grid.zarr,,,,
 atm,static,RCP85,,s3://ncar-cesm-lens/atm/static/grid.zarr,,,,
